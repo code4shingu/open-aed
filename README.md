@@ -6,6 +6,10 @@
 
 - `data/raw/*.csv`: AED設置箇所一覧
 
+## API
+
+- https://code4shingu.github.io/open-aed/raw/20240823aed.csv
+
 ## 🔗 出典
 
 元データは [BODIK（オープンデータポータル）](https://data.bodik.jp/organization/403458) にて公開されているものを利用しています。
