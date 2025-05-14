@@ -5,8 +5,6 @@ on:
     branches: ["main"]
   workflow_dispatch:
 
-# GITHUB_TOKEN のパーミッションを設定し、GitHub Pages へのデプロイを許可します
-
 jobs:
   build:
     runs-on: ubuntu-latest
