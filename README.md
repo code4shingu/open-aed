@@ -4,11 +4,12 @@
 
 ## 📦 利用可能なデータ
 
-- `data/raw/*.csv`: AED設置箇所一覧
+- `data/raw/*.csv`: AED設置箇所一覧 元データ
 
 ## API
 
-- https://code4shingu.github.io/open-aed/raw/20240823aed.csv
+- AED設置箇所一覧 元データ:  https://code4shingu.github.io/open-aed/raw/20240823aed.csv
+- AED設置箇所一覧 加工データ: https://code4shingu.github.io/open-aed/processed/aed.csv
 
 ## Usage
 
