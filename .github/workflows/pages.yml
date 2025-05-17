@@ -14,7 +14,9 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./data
+          path: |
+            ./README.md
+            ./data
 
   deploy:
     needs: build
