@@ -11,15 +11,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Prepare static files
-        run: |
-          mkdir site_dist
-          cp README.md site_dist/
-          cp -r data site_dist/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: site_dist
+          path: ./data 
 
   deploy:
     needs: build
